@@ -1,4 +1,3 @@
-<!-- File: legal/terms.html -->
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -6,75 +5,592 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Términos y Condiciones - UFood</title>
   <style>
-    body{font-family: Arial, Helvetica, sans-serif; margin:28px; color:#222}
-    h1{color:#005B4A}
-    h2{color:#003B31}
-    p{line-height:1.6}
-    .small{font-size:0.9em; color:#555}
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      margin: 0;
+      padding: 0;
+      color: #222;
+      background-color: #f9f9f9;
+    }
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 28px;
+      background-color: white;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+    .logo-section {
+      text-align: center;
+      padding: 20px 0;
+      border-bottom: 2px solid #005B4A;
+      margin-bottom: 30px;
+    }
+    .logo {
+      width: 120px;
+      height: 120px;
+      margin: 0 auto 15px;
+    }
+    .brand-name {
+      font-size: 2.5em;
+      color: #005B4A;
+      font-weight: bold;
+      margin: 10px 0 5px;
+    }
+    .tagline {
+      color: #003B31;
+      font-size: 1.2em;
+      margin: 0;
+    }
+    h1 {
+      color: #005B4A;
+      border-bottom: 3px solid #005B4A;
+      padding-bottom: 10px;
+      margin-top: 30px;
+    }
+    h2 {
+      color: #003B31;
+      margin-top: 25px;
+      border-left: 4px solid #005B4A;
+      padding-left: 15px;
+    }
+    h3 {
+      color: #005B4A;
+      margin-top: 20px;
+    }
+    p {
+      line-height: 1.8;
+      margin: 15px 0;
+    }
+    ul, ol {
+      line-height: 1.8;
+      margin: 15px 0;
+      padding-left: 25px;
+    }
+    li {
+      margin: 8px 0;
+    }
+    .small {
+      font-size: 0.9em;
+      color: #555;
+    }
+    .highlight {
+      background-color: #e8f5e9;
+      padding: 15px;
+      border-left: 4px solid #005B4A;
+      margin: 20px 0;
+    }
+    .important {
+      background-color: #fff3cd;
+      padding: 15px;
+      border-left: 4px solid #ff9800;
+      margin: 20px 0;
+    }
+    .warning {
+      background-color: #ffebee;
+      padding: 15px;
+      border-left: 4px solid #c62828;
+      margin: 20px 0;
+    }
+    a {
+      color: #005B4A;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    footer {
+      margin-top: 40px;
+      padding-top: 20px;
+      border-top: 2px solid #005B4A;
+      text-align: center;
+    }
+    .section-divider {
+      height: 2px;
+      background: linear-gradient(to right, transparent, #005B4A, transparent);
+      margin: 30px 0;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 20px 0;
+    }
+    th, td {
+      border: 1px solid #ddd;
+      padding: 12px;
+      text-align: left;
+    }
+    th {
+      background-color: #005B4A;
+      color: white;
+    }
+    tr:nth-child(even) {
+      background-color: #f2f2f2;
+    }
   </style>
 </head>
 <body>
-  <header>
-    <h1>Términos y Condiciones de Uso – UFood</h1>
-    <p class="small"><strong>Última actualización:</strong> 4 de noviembre de 2025</p>
-  </header>
+  <div class="container">
+    <!-- Logo y Branding -->
+    <div class="logo-section">
+      <img src="./icon.png" alt="logo" style="width:3cm; height:3cm;">
+      <h1 class="brand-name">UFood</h1>
+      <p class="tagline">Tu comida, tu estilo</p>
+    </div>
 
-  <section>
-    <p>Bienvenido a <strong>UFood</strong> (en adelante, "la App"). Al descargar, instalar o utilizar la App, aceptas estos Términos y Condiciones en su totalidad. Si no estás de acuerdo con alguno de los términos, por favor no uses la App.</p>
-  </section>
+    <header>
+      <h1>Términos y Condiciones de Uso</h1>
+      <p class="small"><strong>Última actualización:</strong> 4 de noviembre de 2025</p>
+      <p class="small"><strong>Versión:</strong> 1.0</p>
+      <p class="small"><strong>Vigencia:</strong> A partir del 4 de noviembre de 2025</p>
+    </header>
 
-  <section>
-    <h2>1. Definición del servicio</h2>
-    <p>UFood es una plataforma que permite a los usuarios buscar restaurantes y establecimientos afiliados, consultar menús, realizar pedidos y gestionar reservas o compras de alimentos. La App actúa como intermediaria tecnológica entre usuarios y comercios afiliados.</p>
-  </section>
+    <section>
+      <p>Bienvenido a <strong>UFood</strong> ("la App", "nuestra plataforma", "el servicio"). Al descargar, instalar, registrarte o utilizar la aplicación móvil UFood, aceptas estos Términos y Condiciones en su totalidad. Si no estás de acuerdo con alguno de estos términos, por favor <strong>NO uses la App</strong>.</p>
+      
+      <div class="important">
+        <p><strong>IMPORTANTE:</strong> Estos términos constituyen un acuerdo legal vinculante entre tú (el "Usuario") y UFood. Te recomendamos leerlos detenidamente antes de usar nuestros servicios.</p>
+      </div>
+    </section>
 
-  <section>
-    <h2>2. Registro y cuentas</h2>
-    <p>Para acceder a ciertas funciones es posible que debas crear una cuenta con datos personales básicos (nombre, correo electrónico, teléfono). Eres responsable de mantener la confidencialidad de tu contraseña y de todas las actividades que ocurran bajo tu cuenta.</p>
-  </section>
+    <div class="section-divider"></div>
 
-  <section>
-    <h2>3. Uso correcto y restricciones</h2>
-    <p>El usuario se compromete a utilizar la App conforme a la ley y a no emplearla para fines fraudulentos, suplantación de identidad o cualquier actividad que cause daño a terceros. No está permitido subir contenido ofensivo, difamatorio, ilegal o que infrinja derechos de terceros.</p>
-  </section>
+    <section>
+      <h2>1. Información General del Servicio</h2>
+      
+      <h3>1.1 Definición del Servicio</h3>
+      <p>UFood es una plataforma móvil de comercio electrónico que:</p>
+      <ul>
+        <li>Permite a <strong>compradores</strong> buscar, consultar y contactar vendedores de productos alimenticios locales</li>
+        <li>Permite a <strong>vendedores</strong> publicar, gestionar y promocionar sus productos</li>
+        <li>Facilita la comunicación directa entre compradores y vendedores mediante integración con WhatsApp</li>
+        <li>Actúa como <strong>intermediaria tecnológica</strong> entre usuarios y vendedores</li>
+      </ul>
 
-  <section>
-    <h2>4. Pagos y transacciones</h2>
-    <p>Las transacciones efectuadas a través de la App pueden procesarse mediante terceros proveedores de pago. UFood no almacena datos sensibles de tarjetas (números completos de tarjeta, CVV). En caso de problemas con un pago, la responsabilidad principal recaerá en el proveedor de pago correspondiente y el comercio involucrado.</p>
-  </section>
+      <h3>1.2 Naturaleza del Servicio</h3>
+      <div class="highlight">
+        <p><strong>UFood es un marketplace (mercado digital):</strong></p>
+        <ul>
+          <li>NO somos fabricantes ni vendedores directos de productos</li>
+          <li>NO realizamos entregas físicas de productos</li>
+          <li>NO procesamos pagos dentro de la aplicación en esta versión</li>
+          <li>Facilitamos el contacto entre compradores y vendedores para que completen transacciones de forma independiente</li>
+        </ul>
+      </div>
 
-  <section>
-    <h2>5. Propiedad intelectual</h2>
-    <p>Todos los derechos sobre el nombre, logotipos, diseño, código y contenido de la App pertenecen a los desarrolladores de UFood. Queda prohibida la reproducción, distribución o modificación sin autorización previa y por escrito.</p>
-  </section>
+      <h3>1.3 Desarrolladores</h3>
+      <p>UFood es desarrollada y mantenida por:</p>
+      <ul>
+        <li>Juan Mateo Hernández De Luna</li>
+        <li>Norma Sayuri Gutiérrez Cruz</li>
+        <li>Brian Emmanuel Flores Hernández</li>
+        <li>Aaron Yosef Chávez Martínez</li>
+      </ul>
+      <p><strong>Contacto:</strong> <a href="mailto:ufoodmabn@gmail.com">ufoodmabn@gmail.com</a></p>
+    </section>
 
-  <section>
-    <h2>6. Responsabilidad</h2>
-    <p>UFood no se hace responsable por daños indirectos, pérdida de datos o lucro cesante derivados del uso de la App. La App se ofrece "tal cual" y no garantiza la disponibilidad continua o la ausencia de errores. Los comercios afiliados son responsables de la calidad y entrega de los productos y servicios anunciados.</p>
-  </section>
+    <section>
+      <h2>2. Requisitos y Registro de Usuario</h2>
 
-  <section>
-    <h2>7. Modificaciones</h2>
-    <p>Nos reservamos el derecho de modificar estos Términos y Condiciones en cualquier momento. Las actualizaciones se publicarán en esta página con la fecha de la última actualización. El uso continuado de la App después de cambios implica la aceptación de las modificaciones.</p>
-  </section>
+      <h3>2.1 Elegibilidad</h3>
+      <p>Para usar UFood debes:</p>
+      <ul>
+        <li>Tener al menos <strong>18 años de edad</strong></li>
+        <li>Tener capacidad legal para celebrar contratos vinculantes</li>
+        <li>Proporcionar información verdadera, precisa y completa durante el registro</li>
+        <li>No haber sido previamente suspendido o expulsado de la plataforma</li>
+      </ul>
 
-  <section>
-    <h2>8. Terminación</h2>
-    <p>UFood podrá suspender o cancelar una cuenta que incumpla estos términos, sin perjuicio de las acciones legales que procedan.</p>
-  </section>
+      <h3>2.2 Tipos de Cuenta</h3>
+      <p>UFood ofrece dos tipos de cuentas:</p>
+      
+      <h4>A) Cuenta de Comprador (Cliente/Vendedor)</h4>
+      <ul>
+        <li>Buscar productos y vendedores</li>
+        <li>Contactar vendedores vía WhatsApp</li>
+        <li>Gestionar perfil personal</li>
+        <li>Acceder a historial de búsquedas</li>
+      </ul>
+      <ul>
+        <li>Todas las funciones de comprador</li>
+        <li>Publicar y gestionar productos</li>
+        <li>Recibir consultas de compradores</li>
+        <li>Administrar inventario y precios</li>
+      </ul>
+      <h4>B) Como  administrador</h4>
+      <li>Acceso al panel de administracion de usuarios </li>
 
-  <section>
-    <h2>9. Ley aplicable y jurisdicción</h2>
-    <p>Estos Términos se regirán por las leyes aplicables en el país donde opere UFood. Para cualquier controversia, las partes se someterán a los tribunales competentes indicados por la legislación local.</p>
-  </section>
 
-  <section>
-    <h2>10. Contacto</h2>
-    <p>Si tienes dudas, comentarios o reclamaciones, escríbenos a: <a href="ufoodmabn@gmail.com">ufoodmabn@gmail.com</a>.</p>
-  </section>
+      <h3>2.3 Proceso de Registro</h3>
+      <p>Para crear una cuenta debes proporcionar:</p>
+      
+      <table>
+        <tr>
+          <th>Campo</th>
+          <th>Requisitos</th>
+        </tr>
+        <tr>
+          <td><strong>Nombre completo</strong></td>
+          <td>Mínimo 4 caracteres, máximo 20. Solo letras, números y guiones bajos. Sin espacios ni caracteres especiales.</td>
+        </tr>
+        <tr>
+          <td><strong>Correo electrónico</strong></td>
+          <td>Formato válido (usuario@dominio.com). Debe ser único en la plataforma.</td>
+        </tr>
+        <tr>
+          <td><strong>Teléfono</strong></td>
+          <td>Exactamente 10 dígitos numéricos.</td>
+        </tr>
+        <tr>
+          <td><strong>Contraseña</strong></td>
+          <td>
+            • Mínimo 8 caracteres<br>
+            • Al menos 1 letra mayúscula<br>
+            • Al menos 1 letra minúscula<br>
+            • Al menos 1 número<br>
+          </td>
+        </tr>
+      </table>
 
-  <footer class="small">
-    <p>© UFood. Todos los derechos reservados.</p>
-  </footer>
+      <h3>2.4 Seguridad de la Cuenta</h3>
+      <ul>
+        <li>Eres <strong>único responsable</strong> de mantener la confidencialidad de tu contraseña</li>
+        <li>Las contraseñas se almacenan de forma <strong>encriptada</strong></li>
+        <li>Las sesiones expiran después de <strong>1 hora de inactividad</strong></li>
+        <li>Toda comunicación se realiza mediante <strong>HTTPS</strong> (conexión segura)</li>
+        <li>Debes notificarnos inmediatamente si sospechas de uso no autorizado de tu cuenta</li>
+      </ul>
+
+      <div class="warning">
+        <p><strong>⚠️ IMPORTANTE:</strong> Eres responsable de todas las actividades que ocurran bajo tu cuenta. UFood no será responsable por pérdidas derivadas del uso no autorizado de tu cuenta si no nos notificaste oportunamente.</p>
+      </div>
+    </section>
+
+    <section>
+      <h2>3. Uso Correcto de la Plataforma</h2>
+
+      <h3>3.1 Conducta Permitida</h3>
+      <p>Como usuario de UFood puedes:</p>
+      <ul>
+        <li>Buscar productos legítimos de alimentos</li>
+        <li>Contactar vendedores para consultas sobre productos</li>
+        <li>Publicar productos legales (si eres vendedor)</li>
+        <li>Intercambiar información de contacto con vendedores</li>
+        <li>Compartir experiencias positivas de compra</li>
+      </ul>
+
+      <h3>3.2 Conductas Prohibidas</h3>
+      <p>Queda <strong>ESTRICTAMENTE PROHIBIDO</strong>:</p>
+      
+      <div class="warning">
+        <p><strong>Está prohibido usar UFood para:</strong></p>
+        <ol>
+          <li><strong>Actividades Ilegales:</strong>
+            <ul>
+              <li>Vender productos prohibidos o ilegales</li>
+              <li>Cometer fraude o estafa</li>
+              <li>Lavar dinero o financiar actividades ilícitas</li>
+              <li>Violar leyes de salud pública o sanitarias</li>
+            </ul>
+          </li>
+          <li><strong>Suplantación y Engaño:</strong>
+            <ul>
+              <li>Hacerse pasar por otra persona o entidad</li>
+              <li>Publicar información falsa o engañosa</li>
+              <li>Usar identidades falsas</li>
+              <li>Crear múltiples cuentas para evadir restricciones</li>
+            </ul>
+          </li>
+          <li><strong>Contenido Inapropiado:</strong>
+            <ul>
+              <li>Subir contenido ofensivo, difamatorio o discriminatorio</li>
+              <li>Publicar contenido sexual, violento o que incite al odio</li>
+              <li>Compartir información que infrinja derechos de terceros</li>
+              <li>Spam o publicidad no autorizada</li>
+            </ul>
+          </li>
+          <li><strong>Manipulación Técnica:</strong>
+            <ul>
+              <li>Intentar acceder a cuentas de otros usuarios</li>
+              <li>Manipular o alterar el funcionamiento de la App</li>
+              <li>Usar bots, scripts o automatización no autorizada</li>
+              <li>Realizar ingeniería inversa del código</li>
+              <li>Introducir virus, malware o código malicioso</li>
+            </ul>
+          </li>
+          <li><strong>Abuso del Sistema:</strong>
+            <ul>
+              <li>Hacer un uso excesivo que afecte el rendimiento</li>
+              <li>Extraer datos masivamente (scraping)</li>
+              <li>Interferir con el servicio de otros usuarios</li>
+            </ul>
+          </li>
+        </ol>
+      </div>
+
+      <h3>3.3 Consecuencias del Incumplimiento</h3>
+      <p>Si incumples estos términos, podemos:</p>
+      <ul>
+        <li>Emitir advertencias</li>
+        <li>Suspender temporalmente tu cuenta</li>
+        <li><strong>Desactivar permanentemente tu cuenta</strong> (cambio a estado inactivo)</li>
+        <li>Eliminar contenido infractor</li>
+        <li>Reportar actividades ilegales a las autoridades</li>
+        <li>Emprender acciones legales para recuperar daños</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>4. Responsabilidades de los Vendedores</h2>
+
+      <h3>4.1 Publicación de Productos</h3>
+      <p>Si eres vendedor, te comprometes a:</p>
+      <ul>
+        <li>Publicar solo productos que tengas disponibles para venta</li>
+        <li>Proporcionar descripciones precisas y veraces</li>
+        <li>Usar imágenes reales de tus productos</li>
+        <li>Establecer precios justos y claros</li>
+        <li>Mantener actualizado el stock disponible</li>
+        <li>Cumplir con todas las regulaciones sanitarias aplicables</li>
+      </ul>
+
+      <h3>4.2 Gestión de Productos</h3>
+      <ul>
+        <li>Puedes agregar, editar o eliminar productos en cualquier momento</li>
+        <li>Las imágenes deben comprimirse automáticamente (máximo <strong>5MB cada una</strong>)</li>
+        <li>Debes indicar claramente cuando un producto esté agotado</li>
+        <li>Los productos pueden guardarse como <strong>borrador</strong> o <strong>publicados</strong></li>
+      </ul>
+
+      <h3>4.3 Comunicación con Compradores</h3>
+      <p>Como vendedor debes:</p>
+      <ul>
+        <li>Responder consultas de forma oportuna y profesional</li>
+        <li>Proporcionar información clara sobre disponibilidad y precios</li>
+        <li>Coordinar entregas o puntos de encuentro de forma segura</li>
+        <li>Mantener un trato respetuoso con los compradores</li>
+      </ul>
+
+      <h3>4.4 Calidad y Seguridad Alimentaria</h3>
+      <div class="warning">
+        <p><strong>RESPONSABILIDAD LEGAL DEL VENDEDOR:</strong></p>
+        <ul>
+          <li>Eres <strong>totalmente responsable</strong> de la calidad, seguridad e higiene de tus productos</li>
+          <li>Debes cumplir con todas las regulaciones sanitarias locales, estatales y federales</li>
+          <li>Debes contar con permisos y licencias requeridos para vender alimentos</li>
+          <li>UFood NO verifica la calidad de los productos ni las credenciales de los vendedores</li>
+          <li>UFood NO asume responsabilidad por problemas de salud derivados del consumo de productos</li>
+        </ul>
+      </div>
+    </section>
+
+    <section>
+      <h2>5. Responsabilidades de los Compradores</h2>
+
+      <h3>5.1 Verificación de Productos</h3>
+      <p>Como comprador, eres responsable de:</p>
+      <ul>
+        <li>Verificar la información del vendedor antes de contactarlo</li>
+        <li>Hacer preguntas sobre el producto antes de comprarlo</li>
+        <li>Inspeccionar los productos al momento de recibirlos</li>
+        <li>Verificar que el vendedor tenga las licencias sanitarias necesarias</li>
+      </ul>
+
+      <h3>5.2 Transacciones Seguras</h3>
+      <ul>
+        <li>Coordina encuentros en lugares públicos y seguros</li>
+        <li>No compartas información financiera sensible por WhatsApp</li>
+        <li>Si algo parece sospechoso, repórtalo inmediatamente</li>
+        <li>Guarda evidencia de tus transacciones (capturas, mensajes)</li>
+      </ul>
+
+      <h3>5.3 Reporte de Problemas</h3>
+      <p>Si experimentas problemas con un vendedor:</p>
+      <ul>
+        <li>Intenta resolverlo primero directamente con el vendedor</li>
+        <li>Repórtalo a UFood a través de <a href="mailto:ufoodmabn@gmail.com">ufoodmabn@gmail.com</a></li>
+        <li>Proporciona evidencia (capturas de pantalla, fotos, etc.)</li>
+        <li>Si es un problema de salud, contacta a las autoridades sanitarias</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>6. Comunicación y Mensajería (WhatsApp)</h2>
+
+      <h3>6.1 Integración con WhatsApp</h3>
+      <p>UFood facilita la comunicación mediante redirección a WhatsApp:</p>
+      <ul>
+        <li>Al presionar "Contactar", se abre WhatsApp automáticamente</li>
+        <li>La conversación ocurre <strong>fuera de la aplicación UFood</strong></li>
+        <li>UFood no almacena ni tiene acceso al contenido de tus conversaciones en WhatsApp</li>
+        <li>Sujeto a los términos y privacidad de WhatsApp/Meta</li>
+      </ul>
+
+      <h3>6.2 Contenido de Mensajes</h3>
+      <div class="important">
+        <p><strong>Recomendaciones para mensajería segura:</strong></p>
+        <ul>
+          <li>Sé claro y específico en tus consultas</li>
+          <li>No compartas información bancaria completa</li>
+          <li>Verifica la identidad del vendedor</li>
+          <li>Guarda evidencia de acuerdos importantes</li>
+          <li>Mantén un tono respetuoso y profesional</li>
+        </ul>
+      </div>
+    </section>
+
+    <section>
+      <h2>7. Pagos y Transacciones</h2>
+
+      <h3>7.1 Procesamiento de Pagos (Versión Actual)</h3>
+      <p>En la versión actual de UFood:</p>
+      <ul>
+        <li>Los pagos se realizan <strong>fuera de la plataforma</strong></li>
+        <li>Compradores y vendedores acuerdan el método de pago directamente</li>
+        <li>UFood NO procesa, almacena ni tiene acceso a información de pagos</li>
+        <li>UFood NO cobra comisiones por transacciones en esta versión</li>
+      </ul>
+
+      <h3>7.2 Métodos de Pago Externos (Futuro)</h3>
+      <p>En futuras versiones, podríamos integrar:</p>
+      <ul>
+        <li>PayPal</li>
+        <li>MercadoPago</li>
+        <li>Otros proveedores de pago certificados</li>
+      </ul>
+      
+      <div class="highlight">
+        <p><strong>Cuando esto ocurra:</strong></p>
+        <ul>
+          <li>Los pagos serán procesados por terceros verificados</li>
+          <li>UFood NO almacenará números completos de tarjetas ni códigos CVV</li>
+          <li>Se te notificarán las comisiones aplicables</li>
+          <li>Se actualizarán estos términos con las nuevas condiciones</li>
+        </ul>
+      </div>
+
+      <h3>7.3 Responsabilidad en Transacciones</h3>
+      <p>UFood NO es responsable por:</p>
+      <ul>
+        <li>Disputas sobre pagos realizados fuera de la plataforma</li>
+        <li>Fraudes o estafas en transacciones directas entre usuarios</li>
+        <li>Errores en transferencias o pagos</li>
+        <li>Productos no entregados o defectuosos</li>
+        <li>Reembolsos o devoluciones (se manejan entre comprador y vendedor)</li>
+      </ul>
+
+      <div class="warning">
+        <p><strong>⚠️ IMPORTANTE:</strong> Las transacciones son bajo tu propio riesgo. Te recomendamos usar métodos de pago seguros y verificables, y mantener evidencia de todas las transacciones.</p>
+      </div>
+    </section>
+
+    <section>
+      <h2>8. Gestión de Cuentas por Administradores</h2>
+
+      <h3>8.1 Usuario Administrador</h3>
+      <p>UFood cuenta con administradores designados que tienen las siguientes funciones:</p>
+      <ul>
+        <li>Supervisar el cumplimiento de estos Términos y Condiciones</li>
+        <li>Investigar reportes de usuarios</li>
+        <li>Moderar contenido inapropiado</li>
+        <li>Gestionar solicitudes de eliminación de cuenta</li>
+        <li>Tomar medidas disciplinarias cuando sea necesario</li>
+        <li>Mantener la seguridad y calidad de la plataforma</li>
+      </ul>
+
+      <h3>8.2 Suspensión y Desactivación de Cuentas</h3>
+      <p>Un administrador puede desactivar tu cuenta en los siguientes casos:</p>
+      <ul>
+        <li>Incumplimiento de estos Términos y Condiciones</li>
+        <li>Actividad fraudulenta o sospechosa</li>
+        <li>Múltiples reportes de otros usuarios</li>
+        <li>Publicación de contenido ilegal o inapropiado</li>
+        <li>Suplantación de identidad</li>
+        <li>Uso de múltiples cuentas para evadir restricciones</li>
+        <li>Comportamiento abusivo hacia otros usuarios</li>
+      </ul>
+
+      <h3>8.3 Proceso de Eliminación de Cuenta</h3>
+      
+      <div class="important">
+        <p><strong>Sistema de Doble Estado y Eliminación Automática:</strong></p>
+        
+        <h4>Estado 1: Cuenta Activa</h4>
+        <ul>
+          <li>Tu cuenta funciona normalmente</li>
+          <li>Tienes acceso completo a todas las funciones</li>
+          <li>Tus productos son visibles (si eres vendedor)</li>
+        </ul>
+
+        <h4>Estado 2: Cuenta Inactiva (Desactivada)</h4>
+        <ul>
+          <li>Tu cuenta cambia a estado "inactivo"</li>
+          <li>Pierdes acceso inmediato a la aplicación</li>
+          <li>Tus productos dejan de ser visibles</li>
+          <li>Tus datos quedan en "período de retención de 30 días"</li>
+        </ul>
+
+        <h4>Eliminación Permanente Automática (Después de 30 días)</h4>
+        <ul>
+          <li>Un <strong>proceso automático (Job/Tarea programada)</strong> ejecuta la eliminación</li>
+          <li>Se eliminan <strong>PERMANENTEMENTE</strong>:
+            <ul>
+              <li>Todos tus datos personales</li>
+              <li>Historial de búsquedas y actividad</li>
+              <li>Productos publicados (si eres vendedor)</li>
+              <li>Conversaciones y mensajes internos</li>
+              <li>Configuraciones y preferencias</li>
+            </ul>
+          </li>
+          <li>Solo se conservan datos agregados y anónimos para estadísticas</li>
+          <li><strong>Esta eliminación es IRREVERSIBLE</strong></li>
+        </ul>
+      </div>
+
+      <h3>8.4 Solicitud Voluntaria de Eliminación</h3>
+      <p>Puedes solicitar la eliminación de tu cuenta en cualquier momento:</p>
+      <ol>
+        <li>Envía un correo a: <a href="mailto:ufoodmabn@gmail.com">ufoodmabn@gmail.com</a></li>
+        <li>Asunto: "Solicitud de Eliminación de Cuenta"</li>
+        <li>Incluye tu nombre completo y correo registrado</li>
+        <li>Tu cuenta pasará a estado inactivo inmediatamente</li>
+        <li>Tienes <strong>30 días</strong> para cambiar de opinión</li>
+        <li>Después de 30 días, la eliminación será automática y permanente</li>
+      </ol>
+
+      <h3>8.5 Reactivación Durante el Período de 30 Días</h3>
+      <ul>
+        <li>Si cambiaste de opinión, puedes solicitar reactivación</li>
+        <li>Envía un correo a <a href="mailto:ufoodmabn@gmail.com">ufoodmabn@gmail.com</a> dentro de los 30 días</li>
+        <li>Tu cuenta será revisada por un administrador</li>
+        <li>Si la desactivación fue voluntaria, generalmente se reactivará</li>
+        <li>Si fue por incumplimiento, se evaluará caso por caso</li>
+      </ul>
+
+      <h3>8.6 Apelaciones</h3>
+      <p>Si consideras que tu cuenta fue desactivada injustamente:</p>
+      <ul>
+        <li>Tienes derecho a apelar la decisión</li>
+        <li>Envía tu apelación a <a href="mailto:ufoodmabn@gmail.com">ufoodmabn@gmail.com</a></li>
+        <li>Incluye evidencia que respalde tu caso</li>
+        <li>Revisaremos tu caso en un plazo de 10 días hábiles</li>
+      </ul>
+    </section>
+
+     <footer class="small">
+      <p><strong>© 2025 UFood. Todos los derechos reservados.</strong></p>
+      <p>Desarrollado por: Juan Mateo Hernández De Luna, Norma Sayuri Gutiérrez Cruz, Brian Emmanuel Flores Hernández, Aaron Yosef Chávez Martínez</p>
+      <p style="margin-top: 15px;">
+        <a href="mailto:ufoodmabn@gmail.com">Contacto</a> | 
+        <a href="./terms.html">Términos y Condiciones</a> | 
+        <a href="./privacy.html">Política de Privacidad</a>
+      </p>
+    </footer>
+  </div>
 </body>
 </html>
+
+<footer class="small">
+<p>© UFood. Todos los derechos reservados.</p>
+</footer>
+      
